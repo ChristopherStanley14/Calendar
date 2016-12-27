@@ -1,0 +1,39 @@
+.heading {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+th {
+  width: 800px;
+  text-align: center;
+  height: 2px;
+}
+
+td {
+  height: 120px;
+}
+
+col:nth-child(even) {
+  background-color: rgba(203, 215, 76, 0.1);
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+  display: inline;
+}
+
+#chevron-left {
+  float: left;
+}
+
+#chevron-right {
+  float: right;
+}
+
+h1 {
+  display: inline;
+}
