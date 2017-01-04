@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CalendarComponent } from './app.calendar';
+import { DayComponent } from './day.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalendarComponent
+    CalendarComponent,
+    DayComponent
   ],
   imports: [
     BrowserModule,
